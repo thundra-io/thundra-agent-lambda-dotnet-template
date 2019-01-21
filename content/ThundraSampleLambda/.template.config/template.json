@@ -1,0 +1,37 @@
+{
+  "author": "Thundra",
+  "classifications": ["Thundra", "Lambda"],
+  "name": "Thundra Lambda Function",
+  "identity": "Thundra.Templates.Lambda.CSharp",
+  "groupIdentity": "Thundra.Templates.Lambda",
+  "shortName": "thundra.sample",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "ThundraSampleLambda",
+  "preferNameDirectory": true,
+  "symbols": {
+    "key": {
+      "type": "parameter",
+      "description": "The Thundra API Key which you can procure from the Thundra Console.",
+      "datatype": "string",
+      "replaces": "Thundra_APIKEY",
+      "defaultValue": "your_Api_Key"
+    },
+    "profile": {
+      "type": "parameter",
+      "description": "The AWS credentials profile set in aws-lambda-tools-defaults.json and used as the default profile when interacting with AWS.",
+      "datatype": "string",
+      "replaces": "DefaultProfile",
+      "defaultValue": "default"
+    },
+    "region": {
+      "type": "parameter",
+      "description": "The AWS region set in aws-lambda-tools-defaults.json and used as the default region when interacting with AWS.",
+      "datatype": "string",
+      "replaces": "DefaultRegion",
+      "defaultValue": "eu-west-2"
+    }
+  }
+}
