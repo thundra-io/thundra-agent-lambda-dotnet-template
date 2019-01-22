@@ -1,0 +1,10 @@
+.idea/
+
+hello-thundra/.serverless/
+content/ThundraSampleLambda/src/ThundraSampleLambda/bin
+content/ThundraSampleLambda/src/ThundraSampleLambda/obj
+content/ThundraSampleLambda/test/ThundraSampleLambda.Tests/bin
+content/ThundraSampleLambda/test/ThundraSampleLambda.Tests/obj
+
+content/ThundraSampleLambda/src/ThundraSampleLambda/.DS_Store
+.DS_Store
