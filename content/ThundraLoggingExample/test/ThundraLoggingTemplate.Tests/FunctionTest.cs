@@ -7,9 +7,9 @@ using Xunit;
 using Amazon.Lambda.Core;
 using Amazon.Lambda.TestUtilities;
 
-using ThundraLoggingExample;
+using ThundraLoggingTemplate;
 
-namespace ThundraLoggingExample.Tests
+namespace ThundraLoggingTemplate.Tests
 {
     public class FunctionTest
     {

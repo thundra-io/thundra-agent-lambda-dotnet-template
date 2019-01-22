@@ -18,7 +18,7 @@ dotnet new thundra.log
 
 #### 2 - Configure
 
-Make the following configurations in the `src/ThundraLoggingExample` directory, to the 'aws-lambda-tools-defaults.json' file
+Make the following configurations in the `src/ThundraLoggingTemplate` directory, to the 'aws-lambda-tools-defaults.json' file
 
 - Add Api Key
   To the `environment-variables` tag.

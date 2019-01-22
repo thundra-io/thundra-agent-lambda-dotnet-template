@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ThundraLoggingExample\ThundraLoggingExample.csproj" />
+    <ProjectReference Include="..\..\src\ThundraLoggingTemplate\ThundraLoggingTemplate.csproj" />
   </ItemGroup>
 
 </Project>
