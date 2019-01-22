@@ -1,12 +1,22 @@
-# Hello Thundra
+# Thundra Lambda Function (C#)
 
-This is a simple example to get started with Thundra.
+This is a simple Lambda template with Thundra enabled.
 
-You will learn how to observe the invocation metrics of lambda functions with Thundra using **default settings**.
+The template will provide the basic configuration and dependencies needed to monitor the Lambda function with Thundra.
 
-## How to run using [serverless](https://serverless.com/)
+These instructions are written presuming that you have already installed Thundra templates to your dotnet CLI.
 
-#### 1 - Configuration
+### Using Thundra Sample Template:
+
+#### 1 - Create Template
+
+When using the comamnd below, please refer to the Options below to see what variables you could pass.
+
+```bash
+dotnet new thundra.sample
+```
+
+#### 2 - Configure
 
 Make the following configurations in the `src/ThundraSample` directory, to the 'aws-lambda-tools-defaults.json' file
 
@@ -24,24 +34,22 @@ Make the following configurations in the `src/ThundraSample` directory, to the '
      _ In Attach Policy, choose the AWSLambdaBasicExecutionRole policy.
      After creating your role, add it to the `profile` tag.
 
-#### 2 - Deploy
+#### 3 - Write Your Handler Code
 
-Deploy the .Net Lambda function using the [AWS dotnet tools](https://www.nuget.org/packages/Amazon.Lambda.Tools/) with the command below:
+### Options:
 
-```bash
-dotnet lambda deploy-function ThundraExample
-```
+-k|--key The Thundra API Key which you can procure from the Thundra Console.  
+ string - Optional  
+ Default: your_API_Key
 
-#### 3 - Invoke
+-p|--profile The AWS credentials profile set in aws-lambda-tools-defaults.json and used as the default profile when interacting with AWS.
+string - Optional  
+ Default: default
 
-Invoke the .Net Lambda function using the [AWS dotnet tools](https://www.nuget.org/packages/Amazon.Lambda.Tools/) with the command below:
+-r|--region The AWS region set in aws-lambda-tools-defaults.json and used as the default region when interacting with AWS.  
+ string - Optional  
+ Default: eu-west-2
 
-```bash
-dotnet lambda invoke-function ThundraExample --payload "Hello Thundra"
-```
+To insert your handler code into the template, add it within the `DoHandleRequest` method.
 
-#### 4 - Enjoy your flight with Thundra!
-
-Visit Thundra to observe your metrics. It might take 1-2 minutes to be visible.
-
-_You may also have a test project depending on the options selected._
+_Please visit the [Installation and Configuration](https://docs.thundra.io/v1.0.0/docs/dotnet-installation-and-configuration) section of Thundra's .NET agent docs to know more_

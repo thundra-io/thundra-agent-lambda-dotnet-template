@@ -1,15 +1,15 @@
 {
   "author": "Thundra",
   "classifications": ["Thundra", "Lambda"],
-  "name": "Thundra Lambda Function",
-  "identity": "Thundra.Templates.Lambda.CSharp",
-  "groupIdentity": "Thundra.Templates.Lambda",
-  "shortName": "thundra.sample",
+  "name": "Thundra Lambda Logging",
+  "identity": "Thundra.Templates.Logging.CSharp",
+  "groupIdentity": "Thundra.Templates.Logging",
+  "shortName": "thundra.log",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "ThundraSampleLambda",
+  "sourceName": "ThundraLoggingExample",
   "preferNameDirectory": true,
   "symbols": {
     "key": {
@@ -17,7 +17,7 @@
       "description": "The Thundra API Key which you can procure from the Thundra Console.",
       "datatype": "string",
       "replaces": "Thundra_APIKEY",
-      "defaultValue": "your_API_Key"
+      "defaultValue": "your_Api_Key"
     },
     "profile": {
       "type": "parameter",

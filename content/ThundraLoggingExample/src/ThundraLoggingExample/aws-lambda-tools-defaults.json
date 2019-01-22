@@ -14,7 +14,7 @@
   "framework": "netcoreapp2.1",
   "function-runtime": "dotnetcore2.1",
   "function-memory-size": 256,
-  "function-timeout": 30,
-  "function-handler": "ThundraSampleLambda::ThundraSampleLambda.Function::HandleRequest",
+  "function-timeout": 5,
+  "function-handler": "ThundraLoggingExample::ThundraLoggingExample.Function::HandleRequest",
   "environment-variables": "\"thundra_apiKey\"=\"your_API_Key\""
 }

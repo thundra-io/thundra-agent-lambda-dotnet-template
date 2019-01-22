@@ -6,5 +6,11 @@ content/ThundraSampleLambda/src/ThundraSampleLambda/obj
 content/ThundraSampleLambda/test/ThundraSampleLambda.Tests/bin
 content/ThundraSampleLambda/test/ThundraSampleLambda.Tests/obj
 
+content/ThundraLoggingExample/src/ThundraLoggingExample/bin
+content/ThundraLoggingExample/src/ThundraLoggingExample/obj
+content/ThundraLoggingExample/test/ThundraLoggingExample.Tests/bin
+content/ThundraLoggingExample/test/ThundraLoggingExample.Tests/obj
+
+content/.DS_Store
 content/ThundraSampleLambda/src/ThundraSampleLambda/.DS_Store
 .DS_Store

@@ -7,14 +7,14 @@ using Xunit;
 using Amazon.Lambda.Core;
 using Amazon.Lambda.TestUtilities;
 
-using ThundraSampleLambda;
+using ThundraLoggingExample;
 
-namespace ThundraSampleLambda.Tests
+namespace ThundraLoggingExample.Tests
 {
     public class FunctionTest
     {
         [Fact]
-        public void TestToUpperFunction()
+        public void TestFunction()
         {
 
             // Invoke the lambda function wrapped with Thundra and confirm the greeting was returned.
