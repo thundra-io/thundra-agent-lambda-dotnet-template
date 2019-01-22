@@ -10,7 +10,7 @@ Thundra's .NET template support can be downloaded via the [dotnet CLI](https://d
 dotnet new -i Thundra.Templates
 ```
 
-###Templates
+### Templates
 
 ```
 Templates                            Short Name                    Language      Tags
