@@ -26,9 +26,11 @@ namespace ThundraLoggingTemplate
         /// <returns>/Greeting Message/</returns>
         public override Album DoHandleRequest(string request, ILambdaContext context)
         {
+            //Initializing loggerFactory with Thundra Provider on Microsoft Logging
             var loggerFactory = new LoggerFactory().AddThundraProvider();
             var logger = loggerFactory.CreateLogger<Function>();
 
+            //Console logs are enabled and the message below will be seen as log
             Console.WriteLine("Successfully sent console log.");
 
             return "Hello Thundra";
