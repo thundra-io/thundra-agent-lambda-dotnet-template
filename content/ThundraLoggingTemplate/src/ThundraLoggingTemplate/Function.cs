@@ -24,14 +24,19 @@ namespace ThundraLoggingTemplate
         /// <param name="request"></param>
         /// <param name="context"></param>
         /// <returns>/Greeting Message/</returns>
-        public override Album DoHandleRequest(string request, ILambdaContext context)
+        public override String DoHandleRequest(string request, ILambdaContext context)
         {
-            //Initializing loggerFactory with Thundra Provider on Microsoft Logging
+            //Initializing Microsoft Logger with Thundra Logger Provider
             var loggerFactory = new LoggerFactory().AddThundraProvider();
             var logger = loggerFactory.CreateLogger<Function>();
 
-            //Console logs are enabled and the message below will be seen as log
+            //Sending Logs
             Console.WriteLine("Successfully sent console log.");
+            logger.LogTrace("Trace Log sent");
+            logger.LogInformation("Information Log sent");
+            logger.LogDebug("Debug Log sent");
+            logger.LogError("Error Log sent");
+            logger.LogCritical("Critical Log sent");
 
             return "Hello Thundra";
         }
