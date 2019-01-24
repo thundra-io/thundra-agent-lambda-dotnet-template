@@ -5,11 +5,8 @@ content/ThundraSampleLambda/src/ThundraSampleLambda/bin
 content/ThundraSampleLambda/src/ThundraSampleLambda/obj
 content/ThundraSampleLambda/test/ThundraSampleLambda.Tests/bin
 content/ThundraSampleLambda/test/ThundraSampleLambda.Tests/obj
-
-content/ThundraLoggingTemplate/src/ThundraLoggingTemplate/bin
-content/ThundraLoggingTemplate/src/ThundraLoggingTemplate/obj
-content/ThundraLoggingTemplate/test/ThundraLoggingTemplate.Tests/bin
-content/ThundraLoggingTemplate/test/ThundraLoggingTemplate.Tests/obj
+content/ThundraSampleLambda/src/ThundraSampleLambda/obj
+content/ThundraSampleLambda/src/ThundraSampleLambda/obj/Debug/netcoreapp2.1/ThundraSampleLambda.csproj.CoreCompileInputs.cache
 
 Thundra.Templates.0.0.1.nupkg
 content/.DS_Store

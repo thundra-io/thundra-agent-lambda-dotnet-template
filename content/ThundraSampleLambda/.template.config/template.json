@@ -4,7 +4,7 @@
   "name": "Thundra Lambda Function",
   "identity": "Thundra.Templates.Lambda.CSharp",
   "groupIdentity": "Thundra.Templates.Lambda",
-  "shortName": "thundra.sample",
+  "shortName": "thundra.Sample",
   "tags": {
     "language": "C#",
     "type": "project"
@@ -16,7 +16,7 @@
       "type": "parameter",
       "description": "The Thundra API Key which you can procure from the Thundra Console.",
       "datatype": "string",
-      "replaces": "Thundra_APIKEY",
+      "replaces": "your_API_Key",
       "defaultValue": "your_API_Key"
     },
     "profile": {

@@ -15,8 +15,7 @@ dotnet new -i Thundra.Templates
 ```
 Templates                            Short Name                    Language      Tags
 ------------------------------------------------------------------------------------------------------
-Thundra Lambda Function              thundra.sample                 [C#]          Thundra/Lambda
-Thundra Lambda Logging               thundra.log                    [C#]          Thundra/Lambda
+Thundra Lambda Function              thundra.Sample                 [C#]          Thundra/Lambda
 
 ```
 
