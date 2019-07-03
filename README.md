@@ -1,6 +1,6 @@
-# Thundra Donet Templates
+# Thundra Dotnet Templates
 
-These simple and easy to use tempaltes are provided to that you may get up and running with Thundra as smoothly as possible. Please ensure you check them out and use them to ease your monitoring experaince.
+These simple and easy to use templates are provided so that you may get up and running with Thundra as smoothly as possible. Please ensure you check them out and use them to ease your monitoring experience.
 
 ### Install Templates
 
